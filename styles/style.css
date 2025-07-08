@@ -7,10 +7,38 @@ body {
     font-family: 'open-sans', sans-serif;
 }
 
+/* --------------------------------------
+    Primary Button Design and 
+    Others Primary Designs Start
+-----------------------------------------*/
+
+.primary-btn {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.basic-letter-design {
+    color: #474747;
+    font-size: 20px;
+}
+
+/* --------------------------------------
+    Primary Button Design and 
+    Others Primary Designs End
+-----------------------------------------*/
+
+
 .navbar-parent {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 50px 210px 0;
 } 
 
 .header-logo-text {
@@ -20,12 +48,25 @@ body {
 .header-logo-text span {
     color: #FD6E0A;
 }
-.header-menu ul li {
-    list-style: none;
-} 
-
 .header-menu ul {
     display: flex;
     gap: 10px;
     justify-content: space-between;
+    align-items: center;
+}
+.header-menu ul li {
+    list-style: none;
+    color: #474747;
+    font-size: 20px;
+    margin-left: 50px;
+} 
+.header-menu ul li a {
+    text-decoration: none;
+}
+.header-menu ul li button {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
 }
