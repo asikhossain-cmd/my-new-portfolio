@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 210px 0;
+    margin:0 210px 0;
 } 
 
 .header-logo-text {
@@ -101,8 +101,9 @@ body {
 header {
     background-image: url('../resource/images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right, bottom right;
+    background-position: bottom right;
     background-color: #FFF8F3;
+    padding-top: 50px;
 }
 .banner-profile-pic {
     width: 580px;
