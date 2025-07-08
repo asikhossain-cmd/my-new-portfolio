@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: 'open-sans', sans-serif;
+}
+
+.navbar-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.header-logo-text {
+    font-weight: 800;
+    font-size: 45px;
+}
+.header-logo-text span {
+    color: #FD6E0A;
+}
+.header-menu ul li {
+    list-style: none;
+} 
+
+.header-menu ul {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
