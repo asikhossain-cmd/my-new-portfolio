@@ -13,7 +13,7 @@ body {
 -----------------------------------------*/
 
 .primary-btn {
-    width: 150px;
+    width: 200px;
     height: 64px;
     font-size: 20px;
     color: white;
@@ -203,6 +203,46 @@ main {
     margin-top: 20px;
 }
 
+/* Skills Design Start */
+.resume {
+    text-align: center;
+    margin-top: 130px;
+}
+.resume-container {
+    display: flex;
+    gap: 70px;
+    margin-top: 113px;
+}
+.collumn-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+}
+.sub-sec h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.sub-sec h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+}
+.sub-sec p {
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+}
+.resume-container hr {
+    color: #D1D1D1;
+    margin-top: 30px;
+}
+.sub-sec {
+    text-align: left;
+    margin-top: 30px;
+}
 /* --------------------------------------
             Main Content End
 -----------------------------------------*/
