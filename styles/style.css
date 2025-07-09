@@ -108,3 +108,55 @@ header {
 .banner-profile-pic {
     width: 580px;
 }
+
+/* --------------------------------------
+            Main Content Start
+-----------------------------------------*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-me {
+    max-width: 1200px;
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    box-sizing: border-box;
+    padding: 130px 160px;
+}
+.about-me-container {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.about-me-container h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.description {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #757575;
+    line-height: 30px;
+}
+.name-email-dob-from {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.name-email-dob-from p {
+    color: #757575;
+    font-size: 20px;
+}
+.name-email-dob-from h6 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* --------------------------------------
+            Main Content End
+-----------------------------------------*/
